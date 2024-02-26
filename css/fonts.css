@@ -1,0 +1,58 @@
+/* ROBOTO FLEX */
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/RobotoFlex-Regular.ttf');
+    font-weight: 400;
+}
+
+
+/* INTER */
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+
+/* UNBOUNDED */
+@font-face {
+    font-family: 'unbo';
+    src: url('../fonts/Unbounded-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'unbo';
+    src: url('../fonts/Unbounded-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'unbo';
+    src: url('../fonts/Unbounded-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'unbo';
+    src: url('../fonts/Unbounded-Regular.ttf');
+    font-weight: 400;
+}

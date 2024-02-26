@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER STARTS  -->
+    <header>
+        <!-- TOP BAR -->
+        <div class="top__bar">
+            <div class="container">
+                <div class="top__bar-content">
+                    <div class="top__bar-info">
+                        <p><a href="tel: +998998093878">+998 (99) 809 38 78</a></p>
+                        <p><a href="#">Г.Янгиюль, Самаркандская ул., 318</a></p>
+                    </div>
+
+                    <div>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAV -->
+        <nav>
+            <div class="container">
+                <div class="nav__content">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+
+                    <ul class="nav__menu">
+                        <a href="index.html">
+                            <li>Главная</li>
+                        </a>
+                        <a href="#">
+                            <li>Курсы</li>
+                        </a>
+                        <a href="about.html">
+                            <li>О школе</li>
+                        </a>
+                        <a href="#">
+                            <li>Контакты</li>
+                        </a>
+
+                        <div class="mobile__info">
+                            <a href="tel: +998998093878">
+                                <p>+998 (99) 809 38 78</p>
+                            </a>
+                            <a href="#">
+                                <p>Г.Янгиюль, Самаркандская ул., 318</p>
+                            </a>
+
+                            <div>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </ul>
+
+                    <div class="nav__content-block">
+                        <div class="dropdown">
+                            <button onclick="toggleDropdown()" class="dropbtn" id="selectedOption">RU <i
+                                    class="fa-solid fa-caret-down"></i></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#" onclick="selectOption(this)">RU <i class="fa-solid fa-caret-down"></i></a>
+                                <a href="#" onclick="selectOption(this)">UZ <i class="fa-solid fa-caret-down"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="nav__burger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- HEADER END  -->
+
+
+    <!-- MAIN STARTS -->
+    <main>
+        <!-- PHONE STARTS  -->
+        <section class="phone">
+            <div class="container">
+                <div class="phone__content">
+                    <div class="phone__block">
+                        <h2>
+                            Контакты
+                        </h2>
+
+                        <div class="phone__info">
+                            <a href="#">Главная</a>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                            <a href="#">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--PHONE END  -->
+
+         <!-- CONTACT START -->
+         <section class="contact">
+            <div class="container">
+                <div class="contact__content">
+                    
+                    <div class="contact__information">
+                        <h2>
+                            Связаться с нами
+                        </h2>
+    
+                        <p>
+                            Не стесняйтесь обращаться к нам в любое время
+                            и мы свяжемся с вами
+                        </p>
+    
+                        <form>
+                            <input type="text" placeholder="Имя" required>
+                            <input type="text" placeholder="Номер телефона" required>
+                            <input type="text" placeholder="Сообшения">
+    
+                            <button class="contact__btn">send</button>
+                        </form>
+    
+                        <div class="contact__info">
+                            <div class="contact__info-adress">
+                                <a href="#"><i class="fa-solid fa-phone-volume"></i></a>
+    
+                                <div>
+                                    <a href="#">PHONE</a>
+                                    <a href="#">+998 (99) 809 38 78</a>
+                                </div>
+                            </div>
+    
+                            <div class="contact__info-adress">
+                                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+    
+                                <div>
+                                    <a href="#">Адрес</a>
+                                    <a href="#">г.Янгиюль Самаркандская ул., 318</a>
+                                </div>
+                            </div>
+    
+                            <div class="contact__info-adress">
+                                <a href="#"><i class="fa-solid fa-envelope-open-text"></i></a>
+    
+                                <div>
+                                    <a href="#">Соц.сети</a>
+                                    <a href="#">zaffa.academy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__location">
+                        <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.9102054672717!2d69.05289187655596!3d41.11465211286741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae7b816d3f999b%3A0x2a7955e62e0d4137!2sZAFFA%20ACADEMY!5e0!3m2!1sru!2s!4v1707204731049!5m2!1sru!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT END  -->
+    </main>
+    <!-- MAIN END -->
+
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <a href="#"><img src="img/avto__school logo.png" alt=""></a>
+
+                <ul class="footer__menu">
+                    <a href="index.html">
+                        <li>Главная</li>
+                    </a>
+                    <a href="#">
+                        <li>Курсы</li>
+                    </a>
+                    <a href="about.html">
+                        <li>О школе</li>
+                    </a>
+                    <a href="#">
+                        <li>Контакты</li>
+                    </a>
+                </ul>
+
+                <div class="footer__icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+
+                <a class="footer__link" href="#">@ 2023 Estrella Inc. All rights reserved</a>
+
+            </div>
+
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+
+
+
+
+    <!-- FONT AWESOME -->
+    <script src="libs/FontAwesome.js"></script>
+
+    <!-- MAIN CUSTOM JS -->
+    <script src="js/main.js"></script>
+
+    <!-- LANGING JS -->
+    <script src="js/langing/categorySlide.js"></script>
+</body>
+
+</html>
